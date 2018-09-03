@@ -1,0 +1,4 @@
+local + origin: 				1 commit - created the project
+local + origin: 				2 commit - updated GreetingsController
+origin (after local revert):	3 commit - removed PersonController
+origin (supposed to be):		4 commit with undeleted PersonController, but since there are no diff between commit 2 and 3, then cannot perform the 4th commit

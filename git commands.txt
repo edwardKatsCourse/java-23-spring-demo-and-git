@@ -1,0 +1,13 @@
+git init
+git remote add origin {copy github repository link}
+
+git add . 			=> (. add all files in .git folder)
+git commit -m "first commit"
+git push origin master
+
+|may ask to enter your git provider's username and password
+
+git commit -m "second commit message"
+
+git reset HEAD~		=> (revert last commit) 
+git push -f origin master => (-f 	with force. WILL REPLACE ORIGIN WITH LOCAL)
