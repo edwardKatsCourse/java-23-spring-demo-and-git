@@ -11,6 +11,9 @@ public class GreetingsController {
     //http://localhost:8080/greetings/my variable
     @GetMapping("/greetings/{message}")
     public String getMessage(@PathVariable("message") String message) {
-        return message;
+        return message; //
+    }
+
+    private void init() {
     }
 }
